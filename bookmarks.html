@@ -71,7 +71,7 @@
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, "order": [[ 0,'dec' ]], "columnDefs": [ { "targets": 1, "data": 'creator', "render": format_bookmark }, { "targets": 2, "render": format_link } ] },
+        datatables_options: {"paging": false, "order": [[ 0,'dec' ]], "columnDefs": [ { "targets": 1, "data": 'creator', "render": format_bookmark }, { "targets": 2, "render": format_link }, { className: 'dt-center', targets: [0] }, { className: 'dt-left', targets: [1,2] } ] },
       });
     </script>
   </body>
