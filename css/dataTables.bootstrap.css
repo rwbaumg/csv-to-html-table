@@ -372,3 +372,7 @@ div.FixedHeader_Cloned table {
 	margin: 0 !important
 }
 
+table.dataTable th.dt-nowrap,
+table.dataTable td.dt-nowrap {
+	white-space: nowrap;
+}

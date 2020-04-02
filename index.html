@@ -70,7 +70,7 @@
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, "order": [[ 0,'dec' ]], "columnDefs": [{ type: 'file-size', targets: 3 },{ className: 'dt-center', targets: [1,3]}]},
+        datatables_options: {"paging": false, "order": [[ 0,'dec' ]], "columnDefs": [ { type: 'file-size', targets: [ 3 ] },{ className: 'dt-center', targets: [ 1,3 ] },{ className: 'dt-nowrap', targets: [ 0,2 ] } ]},
         custom_formatting: [[4, format_link],[3, prettySize]]
       });
     </script>
