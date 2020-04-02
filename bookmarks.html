@@ -51,8 +51,9 @@
     <script type="text/javascript">
       function format_link(data, type, row) {
         link=data;
+        name=row[1];
         if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+          return "<a href='" + link + "' title='" + name + "' target='_blank'>" + link + "</a>";
         else
           return "";
       }
@@ -61,7 +62,7 @@
         name=data;
         link=row[2];
         if (name && link)
-          return "<a href='" + link + "' target='_blank'>" + name + "</a>";
+          return "<a href='" + link + "' title='" + link + "' target='_blank'>" + name + "</a>";
         else
           return "";
       }
