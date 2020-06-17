@@ -1,3 +1,5 @@
+h.dt-center, td.dt-center { text-align: center; }
+
 div.dataTables_length label {
 	font-weight: normal;
 	text-align: left;
@@ -370,3 +372,7 @@ div.FixedHeader_Cloned table {
 	margin: 0 !important
 }
 
+table.dataTable th.dt-nowrap,
+table.dataTable td.dt-nowrap {
+	white-space: nowrap;
+}
