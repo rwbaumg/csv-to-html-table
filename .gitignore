@@ -1,4 +1,6 @@
 .DS_Store
 
 *.patch
+
+data/*.md
 data/.api-key
