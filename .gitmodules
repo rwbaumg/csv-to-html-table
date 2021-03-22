@@ -1,0 +1,3 @@
+[submodule "tools/starred"]
+	path = tools/starred
+	url = https://github.com/maguowei/starred.git
